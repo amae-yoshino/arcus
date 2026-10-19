@@ -1,10 +1,8 @@
-# arcus (Beta)
+# arcus
 
 [日本語](README.md)
 
 arcus adds a folder bar beside standard Windows Open and Save As dialogs. See open folders and favorites at a glance, then click a folder to navigate there.
-
-**Version: 1.2.0-beta.1.** This is a beta; compatibility with third-party applications is still being tested.
 
 **[Download for Windows (ZIP · Beta)](https://github.com/amae-yoshino/arcus/releases/download/v1.2.0-beta.1/arcus-1.2.0-beta.1-win-x64.zip)** · [Release notes](https://github.com/amae-yoshino/arcus/releases/tag/v1.2.0-beta.1)
 
@@ -35,9 +33,9 @@ Download `arcus-1.2.0-beta.1-win-x64.zip` using the link above, extract it, and 
 
 **Saved data may be outdated, include closed tabs, or miss newly opened tabs. This is not guaranteed live enumeration of every open tab.** The list is collected once per dialog and stays fixed until it closes.
 
-Unsupported/custom dialogs, elevated applications, different UI structures, UNC paths and display configurations may not work. Own-dialog tests and synthetic fixtures do not establish third-party application compatibility. After failed or timed-out navigation, check the dialog manually; the address text may have changed without confirmed navigation.
+Unsupported/custom dialogs, elevated applications, different UI structures, UNC paths and display configurations may not work. After failed or timed-out navigation, check the dialog manually; the address text may have changed without confirmed navigation.
 
-The main tray app supports English and Japanese. Developer diagnostic tools and raw diagnostic messages may use only one language. Windows common dialogs use the operating system's language.
+The main tray app supports English and Japanese. Windows common dialogs use the operating system's language.
 
 ## Settings and privacy
 

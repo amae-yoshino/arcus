@@ -32,13 +32,13 @@ Directory.Build.propsでDeterministicとPathMapを設定し、デバッグ参照
 
 ## テスト範囲
 
-`tests/Arcus.Tests/Fixtures` は、公開してよい合成データです。テスト実行ファイルの出力先へ自動コピーします。生のUIAや個人の保存タブ情報を必要としません。必須fixtureがない場合はスキップせず失敗します。
+`tests/Arcus.Tests/Fixtures` は合成テストデータです。テスト実行ファイルの出力先へ自動コピーします。生のUIAや個人の保存タブ情報を必要としません。必須fixtureがない場合はスキップせず失敗します。
 
 テストには、パス正規化、重複排除、設定の保存と復旧、ファイル名欄の識別、Filesの設定タブ除外、保存タブ解析、OneCommanderの整合性検査、旧設定互換性、日本語・英語の選択を含みます。合成データの成功は外部アプリの実移動の検証とは区別します。
 
 ## 任意のGUI検証
 
-ビルドしたexeへ以下の引数を渡します。自作ダイアログを表示して閉じ、指定フォルダへ画像・JSON・テスト専用設定を書き出します。普段のAppData設定と自動起動は保存しません。
+ビルドしたexeへ以下の引数を渡します。テスト用ダイアログを表示して閉じ、指定フォルダへ画像・JSON・テスト専用設定を書き出します。普段のAppData設定と自動起動は保存しません。
 
 ```powershell
 & ./artifacts/publish/arcus.exe --visual-smoke ./artifacts/smoke-ja ja
@@ -46,6 +46,8 @@ Directory.Build.propsでDeterministicとPathMapを設定し、デバッグ参照
 & ./artifacts/publish/arcus.exe --menu-smoke ./artifacts/menu-en en
 ```
 
-GUIの実行終了コードと `desktop-smoke.json` を確認してください。画像・JSONには実機フォルダが含まれるため公開しません。検証用UIだけは自身のバックグラウンドダイアログへのバー表示を許可します。実運用の前面チェックや外部アプリでの移動成功を証明するテストではありません。
+GUIの実行終了コードと `desktop-smoke.json` を確認してください。画像・JSONには実機フォルダが含まれる場合があるため、共有前に個人情報を確認してください。検証用UIだけは自身のバックグラウンドダイアログへのバー表示を許可します。実運用の前面チェックや外部アプリでの移動成功を証明するテストではありません。
 
 開発者向けの `FolderInspector` と `DialogNavigator` はソリューションに含めていますが、一般利用者向けZIPには入れません。診断結果の取り扱いはSECURITY.mdを参照してください。
+
+開発者向け診断ツールの画面と内部診断メッセージは、一部日本語または英語のみです。
