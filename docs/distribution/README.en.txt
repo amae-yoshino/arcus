@@ -1,5 +1,5 @@
-arcus 1.2.0-beta.1
-=================
+arcus
+=====
 
 A clickable folder bar for standard Windows Open and Save As dialogs.
 
