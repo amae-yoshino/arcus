@@ -6,6 +6,8 @@ arcus adds a folder bar beside standard Windows Open and Save As dialogs. See op
 
 **[Download for Windows (ZIP · Beta)](https://github.com/amae-yoshino/arcus/releases/download/v1.2.0-beta.1/arcus-1.2.0-beta.1-win-x64.zip)** · [Release notes](https://github.com/amae-yoshino/arcus/releases/tag/v1.2.0-beta.1)
 
+![The arcus folder bar beside a Windows file dialog](images/main.png)
+
 For Windows 11 x64. Requires .NET 10 Windows Desktop Runtime x64. See [requirements and installation](#requirements-and-installation) below.
 
 ## Features

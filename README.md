@@ -6,6 +6,8 @@ Windows標準の「開く」「名前を付けて保存」ダイアログに、�
 
 **[Windows版をダウンロード（ZIP・ベータ版）](https://github.com/amae-yoshino/arcus/releases/download/v1.2.0-beta.1/arcus-1.2.0-beta.1-win-x64.zip)** · [リリース情報](https://github.com/amae-yoshino/arcus/releases/tag/v1.2.0-beta.1)
 
+![ファイルダイアログに表示されるarcusのフォルダバー](images/main.png)
+
 Windows 11 x64向けです。実行には.NET 10 Windows Desktop Runtime x64が必要です。詳しくは[動作環境](#動作環境)をご覧ください。
 
 ## 主な機能
