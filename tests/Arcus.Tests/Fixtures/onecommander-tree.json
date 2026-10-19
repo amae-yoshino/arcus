@@ -1,0 +1,48 @@
+{
+  "Status": "Success",
+  "Detail": "Synthetic",
+  "Nodes": [
+    {
+      "RuntimeId": "root",
+      "ParentId": null,
+      "Type": "ControlType.Window",
+      "Name": "",
+      "AutomationId": "",
+      "Class": "Window",
+      "Handle": 0,
+      "Offscreen": false,
+      "Value": null,
+      "Writable": false,
+      "Invokable": false,
+      "Selection": null
+    },
+    {
+      "RuntimeId": "browser",
+      "ParentId": "root",
+      "Type": "ControlType.Custom",
+      "Name": "",
+      "AutomationId": "BrowserUC",
+      "Class": "Browser",
+      "Handle": 0,
+      "Offscreen": false,
+      "Value": null,
+      "Writable": false,
+      "Invokable": false,
+      "Selection": null
+    },
+    {
+      "RuntimeId": "path",
+      "ParentId": "root",
+      "Type": "ControlType.Edit",
+      "Name": "",
+      "AutomationId": "CurrentPathGet",
+      "Class": "TextBox",
+      "Handle": 0,
+      "Offscreen": false,
+      "Value": "E:\\",
+      "Writable": false,
+      "Invokable": false,
+      "Selection": null
+    }
+  ]
+}

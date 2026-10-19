@@ -1,0 +1,51 @@
+# Build, local IDE state, packages and release outputs
+**/bin/
+**/obj/
+/.vs/
+/.idea/
+/artifacts/
+*.user
+*.suo
+*.pdb
+*.nupkg
+*.snupkg
+*.log
+*.dmp
+*.tmp
+*.bak
+*.corrupt-*
+
+# Local settings, credentials and signing material
+.env
+.env.*
+!.env.example
+**/settings.json
+**/settings.json.bak
+**/arcus-favorites.json
+*.pfx
+*.p12
+*.pem
+*.key
+/.codex/
+/.agents/
+/.aws/
+
+# Local publication tooling and review records
+/LICENSE-STATUS.md
+/SOURCE-MANIFEST.sha256
+/scripts/Prepare-PublicSource.ps1
+/scripts/PublicFiles.ps1
+/scripts/Test-PublicSource.ps1
+
+# Historical development notes, raw UIA/session captures and unused extensions
+# Public docs are an explicit allowlist. New public docs must be added here too.
+/extensions/
+/docs/*
+!/docs/BUILD.md
+!/docs/INSTALL.md
+!/docs/ARCHITECTURE.md
+!/docs/distribution/
+/docs/distribution/*
+!/docs/distribution/README.txt
+!/docs/distribution/README.en.txt
+!/docs/distribution/更新履歴.txt

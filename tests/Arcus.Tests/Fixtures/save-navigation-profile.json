@@ -1,0 +1,116 @@
+{
+  "Status": "Success",
+  "Detail": "Synthetic regression fixture; not evidence of live navigation.",
+  "Dialogs": [
+    {
+      "Window": {
+        "Handle": 100,
+        "ProcessId": 200,
+        "Process": "ExampleApp",
+        "Class": "#32770",
+        "Title": "Example dialog"
+      },
+      "SupportedStructure": true,
+      "Reason": "Synthetic",
+      "Nodes": [
+        {
+          "RuntimeId": "host",
+          "ParentId": null,
+          "Type": "ControlType.ComboBox",
+          "Name": "",
+          "AutomationId": "FileNameControlHost",
+          "Class": "AppControlHost",
+          "Handle": 0,
+          "Offscreen": false,
+          "Value": null,
+          "Writable": false,
+          "Invokable": false,
+          "Selection": null
+        },
+        {
+          "RuntimeId": "file",
+          "ParentId": "host",
+          "Type": "ControlType.Edit",
+          "Name": "",
+          "AutomationId": "1001",
+          "Class": "Edit",
+          "Handle": 0,
+          "Offscreen": false,
+          "Value": "example.txt",
+          "Writable": false,
+          "Invokable": false,
+          "Selection": null
+        },
+        {
+          "RuntimeId": "type",
+          "ParentId": null,
+          "Type": "ControlType.ComboBox",
+          "Name": "",
+          "AutomationId": "FileTypeControlHost",
+          "Class": "ComboBox",
+          "Handle": 0,
+          "Offscreen": false,
+          "Value": null,
+          "Writable": false,
+          "Invokable": false,
+          "Selection": "Text (*.txt)"
+        }
+      ]
+    },
+    {
+      "Window": {
+        "Handle": 100,
+        "ProcessId": 200,
+        "Process": "ExampleApp",
+        "Class": "#32770",
+        "Title": "Example dialog"
+      },
+      "SupportedStructure": true,
+      "Reason": "Synthetic",
+      "Nodes": [
+        {
+          "RuntimeId": "host",
+          "ParentId": null,
+          "Type": "ControlType.ComboBox",
+          "Name": "",
+          "AutomationId": "FileNameControlHost",
+          "Class": "AppControlHost",
+          "Handle": 0,
+          "Offscreen": false,
+          "Value": null,
+          "Writable": false,
+          "Invokable": false,
+          "Selection": null
+        },
+        {
+          "RuntimeId": "file",
+          "ParentId": "host",
+          "Type": "ControlType.Edit",
+          "Name": "",
+          "AutomationId": "1001",
+          "Class": "Edit",
+          "Handle": 0,
+          "Offscreen": false,
+          "Value": "example.txt",
+          "Writable": false,
+          "Invokable": false,
+          "Selection": null
+        },
+        {
+          "RuntimeId": "type",
+          "ParentId": null,
+          "Type": "ControlType.ComboBox",
+          "Name": "",
+          "AutomationId": "FileTypeControlHost",
+          "Class": "ComboBox",
+          "Handle": 0,
+          "Offscreen": false,
+          "Value": null,
+          "Writable": false,
+          "Invokable": false,
+          "Selection": "Text (*.txt)"
+        }
+      ]
+    }
+  ]
+}

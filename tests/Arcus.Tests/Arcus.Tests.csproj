@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType></PropertyGroup>
+  <ItemGroup><ProjectReference Include="../../src/Arcus.Core/Arcus.Core.csproj" /></ItemGroup>
+  <ItemGroup><Content Include="Fixtures/**/*.json" CopyToOutputDirectory="PreserveNewest" /></ItemGroup>
+</Project>

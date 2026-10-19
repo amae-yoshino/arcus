@@ -1,0 +1,24 @@
+{
+  "Status": "Partial",
+  "Detail": "Synthetic collection",
+  "Adapters": [
+    {
+      "Source": "Files",
+      "Status": "Partial",
+      "Folders": [
+        {
+          "Path": "E:\\",
+          "Source": "Files",
+          "Window": 100,
+          "TabId": "tab1",
+          "PaneId": null,
+          "IsActive": true,
+          "LastUsed": null,
+          "Status": "Partial",
+          "IsCached": false
+        }
+      ],
+      "Detail": "Synthetic"
+    }
+  ]
+}

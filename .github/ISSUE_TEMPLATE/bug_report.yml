@@ -1,0 +1,25 @@
+name: Bug report / 不具合報告
+description: Report an arcus beta issue. / ベータ版の不具合を報告します。
+body:
+  - type: markdown
+    attributes:
+      value: "Remove personal paths, file names and secrets from logs and screenshots. Security issues: see SECURITY.md. / ログ・画像の個人情報を伏せてください。脆弱性はSECURITY.mdを確認してください。"
+  - type: input
+    id: version
+    attributes:
+      label: arcus version / バージョン
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment / 環境
+      description: Windows build, file manager and version, target app, UI language, display scaling. / Windows、ファイルマネージャー、対象アプリ、表示言語、拡大率。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps and actual / expected behavior / 再現手順・実際と期待する動作
+    validations:
+      required: true

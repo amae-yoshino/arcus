@@ -1,0 +1,76 @@
+{
+  "Status": "Success",
+  "Detail": "Synthetic settings view with stale path",
+  "Nodes": [
+    {
+      "RuntimeId": "root",
+      "ParentId": null,
+      "Type": "ControlType.Window",
+      "Name": "",
+      "AutomationId": "",
+      "Class": "Window",
+      "Handle": 0,
+      "Offscreen": false,
+      "Value": null,
+      "Writable": false,
+      "Invokable": false,
+      "Selection": null
+    },
+    {
+      "RuntimeId": "tabs",
+      "ParentId": "root",
+      "Type": "ControlType.Tab",
+      "Name": "",
+      "AutomationId": "HorizontalTabView",
+      "Class": "TabView",
+      "Handle": 0,
+      "Offscreen": false,
+      "Value": null,
+      "Writable": false,
+      "Invokable": false,
+      "Selection": null
+    },
+    {
+      "RuntimeId": "tab1",
+      "ParentId": "tabs",
+      "Type": "ControlType.TabItem",
+      "Name": "",
+      "AutomationId": "",
+      "Class": "TabItem",
+      "Handle": 0,
+      "Offscreen": false,
+      "Value": null,
+      "Writable": false,
+      "Invokable": false,
+      "Selection": "True"
+    },
+    {
+      "RuntimeId": "tab2",
+      "ParentId": "tabs",
+      "Type": "ControlType.TabItem",
+      "Name": "",
+      "AutomationId": "",
+      "Class": "TabItem",
+      "Handle": 0,
+      "Offscreen": false,
+      "Value": null,
+      "Writable": false,
+      "Invokable": false,
+      "Selection": "False"
+    },
+    {
+      "RuntimeId": "path",
+      "ParentId": "root",
+      "Type": "ControlType.Edit",
+      "Name": "",
+      "AutomationId": "CurrentPathGet",
+      "Class": "TextBox",
+      "Handle": 0,
+      "Offscreen": false,
+      "Value": "E:\\",
+      "Writable": false,
+      "Invokable": false,
+      "Selection": null
+    }
+  ]
+}

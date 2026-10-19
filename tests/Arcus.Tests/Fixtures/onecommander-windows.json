@@ -1,0 +1,13 @@
+{
+  "Status": "Success",
+  "Detail": "Synthetic",
+  "Windows": [
+    {
+      "Handle": 100,
+      "ProcessId": 200,
+      "Process": "OneCommander",
+      "Class": "HwndWrapper[OneCommander.exe;;example]",
+      "Title": "Example"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>WinExe</OutputType><AssemblyName>FolderInspector</AssemblyName><ApplicationManifest>../app.manifest</ApplicationManifest></PropertyGroup>
+  <ItemGroup><ProjectReference Include="../Arcus.Core/Arcus.Core.csproj" /></ItemGroup>
+</Project>
